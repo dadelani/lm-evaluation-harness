@@ -17,7 +17,7 @@ should_decontaminate: true
 doc_to_decontamination_query: premise
 metric_list:
   - metric: f1
-    aggregation: !function utils.macro_f1_score
+    aggregation: !function utils.weighted_f1_score
     average: weighted
     higher_is_better: True
     ignore_case: true
