@@ -18,7 +18,7 @@ def doc_to_text(doc):
     Which category does the tweet above belong to: 'Hate', 'Abuse' or 'Normal'. Pick exactly one category.  
     """
 
-    text = output.format(premise=doc["tweet"])
+    text = output.format(tweet=doc["tweet"])
     return text
 
 
