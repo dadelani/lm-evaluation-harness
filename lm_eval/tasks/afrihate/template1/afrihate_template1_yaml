@@ -22,8 +22,7 @@ metric_list:
     ignore_case: true
     ignore_punctuation: true
   - metric: acc
-    aggregation: !function utils.weighted_f1_score
-    average: weighted
+    aggregation: mean
     higher_is_better: true
     ignore_case: true
     ignore_punctuation: true
