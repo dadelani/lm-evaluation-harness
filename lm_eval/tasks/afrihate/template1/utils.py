@@ -4,7 +4,7 @@ from lm_eval.utils import macro_f1_score
 def doc_to_text(doc):
     output = """I am providing you with the definition Hate speech, Abusive language and Normal tweets.
     
-    An Hate speech is language content that expresses hatred towards a particular group or individual based on their 
+    Hate speech is a language content that expresses hatred towards a particular group or individual based on their 
     political affiliation, race, ethnicity, religion, gender, sexual orientation, or other characteristics. 
     It also includes threats of violence.
 
