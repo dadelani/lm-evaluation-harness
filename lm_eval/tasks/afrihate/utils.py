@@ -28,6 +28,7 @@ def gen_lang_yamls(output_dir: str, overwrite: bool, mode: str) -> None:
         "orm",
         "pcm",
         "som",
+        "tir",
         "twi",
         "xho",
         "yor",
