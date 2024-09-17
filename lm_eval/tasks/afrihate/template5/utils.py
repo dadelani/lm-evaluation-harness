@@ -24,10 +24,6 @@ def doc_to_text(doc):
   
     """
 
-    text = output.format(premise=doc["tweet"])
+    text = output.format(tweet=doc["tweet"])
     return text
 
-
-def doc_to_target(doc):
-    replacements = {0: "Hate", 1: "Abuse", 2: "Normal"}
-    return replacements[doc["label"]]
