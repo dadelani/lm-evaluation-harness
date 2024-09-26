@@ -1,7 +1,7 @@
 group:
     - afrihate
     - afrihate_template4
-dataset_path: Davlan/afrihate
+dataset_path: afrihate/afrihate
 dataset_name: null
 output_type: multiple_choice
 validation_split: validation
