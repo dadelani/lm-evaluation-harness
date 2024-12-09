@@ -28,6 +28,7 @@ def gen_lang_yamls(output_dir: str, overwrite: bool, mode: str) -> None:
         "orm",
         "pcm",
         "som",
+        "swa",
         "tir",
         "twi",
         "xho",
@@ -75,12 +76,12 @@ def main() -> None:
     )
     parser.add_argument(
         "--output-dir",
-        default="./template1",
+        default="./template",
         help="Directory to write yaml files to",
     )
     parser.add_argument(
         "--mode",
-        default="template1",
+        default="template",
         choices=["template1", "template2", "template3", "template4", "template5"],
         help="Mode of chain-of-thought",
     )
