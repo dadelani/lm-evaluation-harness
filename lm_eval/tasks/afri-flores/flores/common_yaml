@@ -1,0 +1,10 @@
+output_type: generate_until
+validation_split: validation
+fewshot_split: validation
+test_split: test
+generation_kwargs:
+  do_sample: false
+  temperature: 0.0
+repeats: 1
+metadata:
+  version: 1.0
