@@ -1,7 +1,7 @@
 group:
   - afribench
 task: null
-dataset_path: masakhane/uhura-arc-easy
+dataset_path: ebayes/uhura-arc-easy
 dataset_name: null
 output_type: multiple_choice
 doc_to_target: "{{['A', 'B', 'C', 'D'].index(answerKey)}}"
